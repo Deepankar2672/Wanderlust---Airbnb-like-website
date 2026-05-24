@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Listing placeholder</title>
+  <desc id="desc">A simple travel landscape placeholder for listings without a working image.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fd3ff"/>
+      <stop offset="0.58" stop-color="#f6e8c8"/>
+      <stop offset="1" stop-color="#f3b36b"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#147e9c"/>
+      <stop offset="1" stop-color="#62c4c5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sky)"/>
+  <circle cx="930" cy="180" r="78" fill="#fff7c2"/>
+  <path d="M0 470 C160 360 280 390 420 280 C545 180 670 365 790 255 C945 115 1050 260 1200 170 L1200 800 L0 800 Z" fill="#355c4a"/>
+  <path d="M0 520 C220 455 340 520 540 470 C735 420 850 510 1200 445 L1200 800 L0 800 Z" fill="url(#water)"/>
+  <path d="M0 620 C230 590 360 645 580 610 C780 575 960 625 1200 575 L1200 800 L0 800 Z" fill="#f7d69b"/>
+  <path d="M135 670 C275 640 390 690 535 655 C675 622 800 675 940 640 C1030 618 1110 628 1200 600" fill="none" stroke="#fff5da" stroke-width="16" opacity="0.72"/>
+  <text x="600" y="735" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#2b2f32">WanderLust</text>
+</svg>
